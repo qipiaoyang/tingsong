@@ -1,0 +1,213 @@
+.center_info {
+  padding: 30px;
+  background-color: #ffffff; }
+  .center_info .center_info_personal {
+    margin-top: 10px; }
+    .center_info .center_info_personal .center_info_avatar {
+      width: 100px;
+      height: 100px;
+      margin-right: 35px; }
+      .center_info .center_info_personal .center_info_avatar .center_info_avatar_box {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #999999; }
+    .center_info .center_info_personal .center_info_detail {
+      margin-bottom: 30px; }
+      .center_info .center_info_personal .center_info_detail .center_info_detail-personal {
+        font-size: 18px;
+        margin-top: 3px;
+        margin-bottom: 13px;
+        vertical-align: text-bottom;
+        color: #666666; }
+        .center_info .center_info_personal .center_info_detail .center_info_detail-personal .center_info-name {
+          font-size: 20px;
+          color: #343434;
+          height: 20px;
+          line-height: 20px;
+          margin-right: 5px;
+          font-weight: 500; }
+      .center_info .center_info_personal .center_info_detail .center_info_detail-company {
+        font-size: 16px;
+        line-height: 16px;
+        color: #666666;
+        margin-bottom: 13px; }
+      .center_info .center_info_personal .center_info_detail .center_info_detail-lanels {
+        font-size: 0; }
+        .center_info .center_info_personal .center_info_detail .center_info_detail-lanels .center_info_detail-lanels-item {
+          display: inline-block;
+          padding: 0 10px;
+          border: 1px solid #cccccc;
+          border-radius: 2px;
+          font-size: 14px;
+          height: 30px;
+          line-height: 30px;
+          color: #343434;
+          margin-right: 10px;
+          box-sizing: border-box; }
+    .center_info .center_info_personal .center_data .center_data-item {
+      margin-right: 19px;
+      width: 212px;
+      text-align: center;
+      background-color: #F7F7F7; }
+      .center_info .center_info_personal .center_data .center_data-item:last-child {
+        margin-right: 0; }
+      .center_info .center_info_personal .center_data .center_data-item .center_data-item-title {
+        font-size: 16px;
+        color: #333333;
+        line-height: 16px;
+        height: 16px;
+        margin-top: 30px;
+        margin-bottom: 17px; }
+      .center_info .center_info_personal .center_data .center_data-item .center_data-item-num {
+        color: #333333;
+        font-size: 30px;
+        line-height: 22px;
+        height: 22px;
+        font-weight: 500;
+        margin-bottom: 19px; }
+      .center_info .center_info_personal .center_data .center_data-item .center_data-item-compare {
+        margin-bottom: 29px; }
+      .center_info .center_info_personal .center_data .center_data-item .center_data-item-account {
+        margin-top: 39px;
+        margin-bottom: 20px; }
+      .center_info .center_info_personal .center_data .center_data-item .center_data-item-account-num {
+        margin-bottom: 60px; }
+
+.center_task {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #ffffff; }
+  .center_task .center_task_box {
+    margin-left: 46px;
+    margin-top: 56px;
+    margin-bottom: 40px;
+    height: 60px; }
+    .center_task .center_task_box .center_task-line {
+      width: 155px;
+      margin: 16px 5px 0 5px;
+      background-color: #E5E5E5; }
+      .center_task .center_task_box .center_task-line.active {
+        background-color: #FF9A18; }
+    .center_task .center_task_box .center_task-item > div {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 2px solid #e8e8e8;
+      position: relative; }
+      .center_task .center_task_box .center_task-item > div > div {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: 4px;
+        top: 4px;
+        border-radius: 50%;
+        background-color: #D4D4D4;
+        text-align: center; }
+        .center_task .center_task_box .center_task-item > div > div > i {
+          color: #ffffff; }
+    .center_task .center_task_box .center_task-item > p {
+      font-size: 14px;
+      color: #888888; }
+    .center_task .center_task_box .center_task-item.active > div {
+      border: 2px solid #FF9A18; }
+      .center_task .center_task_box .center_task-item.active > div > div {
+        background-color: #FF9A18; }
+    .center_task .center_task_box .center_task-item.active > p {
+      font-size: 14px;
+      color: #FF9A18; }
+  .center_task .center_task_answer {
+    text-align: center;
+    margin-bottom: 16px; }
+
+.center_message {
+  margin-top: 10px;
+  padding: 30px 30px 0 30px;
+  background-color: #ffffff; }
+  .center_message .center_message_box .center_message_item {
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .center_message .center_message_box .center_message_item .center_message_item-time {
+      width: 72px;
+      margin-right: 24px; }
+      .center_message .center_message_box .center_message_item .center_message_item-time > p {
+        line-height: 20px;
+        height: 20px;
+        color: #9A9A9A;
+        font-size: 14px; }
+    .center_message .center_message_box .center_message_item .center_message_item-content {
+      width: 672px;
+      margin-right: 33px; }
+      .center_message .center_message_box .center_message_item .center_message_item-content > p {
+        line-height: 20px;
+        height: 20px;
+        color: #343434;
+        font-size: 14px; }
+    .center_message .center_message_box .center_message_item .center_message_item-btn {
+      width: 100px; }
+
+.center_recommend {
+  margin-top: 10px;
+  padding: 30px 30px 0 30px;
+  background-color: #ffffff; }
+  .center_recommend .center_recommend_box .center_recommend_item {
+    padding-top: 30px;
+    border-bottom: 1px solid #f5f5f5; }
+    .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-tip {
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      background-color: #FF9A18;
+      color: #ffffff;
+      text-align: center;
+      line-height: 20px;
+      margin-right: 12px; }
+    .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-content {
+      width: 870px; }
+      .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-content .center_recommend_item-title {
+        line-height: 20px;
+        margin-bottom: 23px;
+        color: #666666;
+        font-size: 14px; }
+      .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-content .center_recommend_item-btn {
+        margin-right: 30px;
+        margin-bottom: 30px; }
+      .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-content .center_recommend_item-ignore {
+        height: 32px;
+        line-height: 32px;
+        color: #A0A4B0;
+        font-size: 14px; }
+        .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-content .center_recommend_item-ignore > i {
+          margin-right: 5px; }
+      .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-content .center_recommend_item-info {
+        font-size: 14px;
+        color: #9A9A9A;
+        height: 32px;
+        line-height: 32px; }
+        .center_recommend .center_recommend_box .center_recommend_item .center_recommend_item-answer .center_recommend_item-content .center_recommend_item-info .center_recommend_item-inline {
+          margin: 0 5px; }
+
+.center_read {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  padding: 30px;
+  background-color: #ffffff; }
+  .center_read .center_read_box .center_read_avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #999999;
+    margin-right: 20px; }
+  .center_read .center_read_box .center_read_content .center_read_title {
+    margin-top: 6px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #343434;
+    margin-bottom: 20px; }
+  .center_read .center_read_box .center_read_content .center_read_tip {
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #666666; }

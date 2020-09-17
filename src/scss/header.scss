@@ -1,0 +1,526 @@
+@charset "utf-8";
+
+/* 顶部工具条 */
+.topbar {
+  height: 42px;
+  line-height: 42px;
+  background-color: #333;
+  color: #999;
+  position: relative;
+  z-index: 99999;
+}
+
+.topbar ul {
+  float: right;
+}
+
+.topbar li {
+  float: left;
+}
+
+.topbar a {
+  color: #999;
+  font-size: 12px
+}
+
+.topbar a:hover {
+  color: #ccc;
+}
+
+.topbar a.red {
+  color: #fff;
+}
+
+.topbar a.red:hover {
+  color: #f32e3d;
+}
+
+.topbar i {
+  font-size: 24px;
+  vertical-align: top;
+}
+
+.topbar em {
+  margin: 0 8px;
+}
+
+.topbar-wechat {
+  float: left;
+  position: relative;
+}
+
+.topbar-wechat-main {
+  cursor: default;
+  transition: all .2s ease;
+}
+
+.topbar-ewm {
+  width: 110px;
+  padding: 10px;
+  color: #333;
+}
+
+.topbar-ewm img {
+  vertical-align: top;
+  width: 110px;
+  height: 110px;
+}
+
+.topbar-ewm span {
+  display: block;
+  width: 110px;
+  text-align: center;
+  line-height: 1;
+}
+
+.topbar-tel {
+  color: #ff5a67;
+  margin: 0 20px 0 10px;
+  float: left;
+  height: 42px;
+  overflow: hidden;
+  display: inline;
+}
+
+.topbar-user {
+  float: left;
+  position: relative;
+}
+
+.topbar-user-main img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #d5d5d5;
+  float: left;
+  margin: 9px 7px 0 0;
+}
+
+.topbar-user-main span {
+  display: inline-block;
+}
+
+.topbar-user-main i {
+  background: url(//cdn.tingsonglaw.com/img/drop_dowm.png) no-repeat;
+  width: 9px;
+  height: 5px;
+  display: inline-block;
+  transition: all .2s ease;
+  vertical-align: middle;
+  margin: 0 6px;
+}
+
+.topbar-user-list, .topbar-mail-list {
+  padding: 8px 0;
+  width: 100%;
+}
+
+.topbar-user-list li, .topbar-mail-list li {
+  width: 100%;
+  text-align: center;
+}
+
+.topbar-user-list a, .topbar-mail-list a {
+  display: block;
+  line-height: 30px;
+  color: #333;
+}
+
+.topbar-user-list a:hover, .topbar-mail-list a:hover {
+  color: #3c92eb;
+}
+
+.topbar-mail {
+  float: left;
+  position: relative;
+  margin-left: 2px;
+}
+
+.topbar-mail-main span {
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 100%;
+  background-color: #f32e3d;
+  color: #fff;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: -4px;
+}
+
+.topbar-mail-list span {
+  color: #ff5a67;
+  margin-left: 6px;
+}
+
+.topbar-mail-list em {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #ff5a67;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.topbar-dropdown {
+  position: absolute;
+  background-color: #fff;
+  width: 130px;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  left: 50%;
+  margin-left: -66px;
+  top: 42px;
+  display: none;
+}
+
+.topbar-dropdown-icon i, .topbar-dropdown-icon b {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border-width: 6px;
+  border-style: dashed dashed solid dashed;
+  position: absolute;
+  left: 50%;
+  margin-left: -7px;
+}
+
+.head_cont .topbar-dropdown-icon i, .head_cont .topbar-dropdown-icon b {
+  margin-left: -70px;
+}
+
+.topbar-dropdown-icon i {
+  border-color: transparent transparent #d5d5d5 transparent;
+  top: -12px;
+}
+
+.topbar-dropdown-icon b {
+  border-color: transparent transparent #fff transparent;
+  top: -11px;
+}
+
+.dropdown .topbar-wechat-main {
+  color: #00be09;
+}
+
+.dropdown .topbar-user-main span, .dropdown .topbar-user-main i, .dropdown .topbar-mail-main i {
+  color: #ccc;
+}
+
+.topbar-mail-main i {
+  background: url(//cdn.tingsonglaw.com/img/tip_dope.png) 0 2px no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.head_cont {
+  width: 235px;
+  padding: 10px
+}
+
+.head_area {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+.head_area a:hover {
+  color: #333
+}
+
+.head_area .head_a {
+  overflow: hidden;
+  display: block;
+  height: 42px;
+  line-height: 42px
+}
+
+.head_area .head_a i {
+  background: url(//cdn.tingsonglaw.com/img/add_icon.png) no-repeat;
+  width: 15px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin-top: 12px;
+}
+
+.head_area .head_a b {
+  font-size: 14px;
+  float: left;
+  color: #999;
+  padding: 0 6px;
+  line-height: 42px;
+  display: block;
+  min-width: 10px;
+  height: 42px;
+  max-width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.head_area .head_a em {
+  float: left;
+  background: url(//cdn.tingsonglaw.com/img/drop_dowm.png) no-repeat;
+  width: 9px;
+  height: 5px;
+  display: block;
+  margin-top: 19px;
+  transition: all .2s ease;
+}
+
+.head_select select {
+  width: 170px;
+  height: 32px;
+  border: 1px solid #e2e2e2;
+  padding-left: 5px;
+}
+
+.head_select {
+  float: left;
+  margin: 0 5px;
+}
+
+.header_nav {
+  float: left;
+  margin-left: 70px;
+}
+
+.header_nav ul li {
+  float: left;
+  padding-right: 45px;
+}
+
+.header_nav ul li a {
+  font-size: 16px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.single {
+  float: right;
+  height: 80px;
+  line-height: 80px;
+}
+
+.single a {
+  font-size: 14px;
+  color: #666;
+  position: relative;
+}
+
+.single a:before {
+  content: "";
+  background: url(/img/tb_list.png) 0 -21px no-repeat;
+  width: 20px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  left: -27px;
+  top: 3px;
+}
+
+.topbar_navlist {
+  float: left;
+  padding-left: 20px;
+}
+
+.topbar_navlist ul li {
+  float: left
+}
+
+.topbar_navlist ul li a {
+  color: #999;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+/*标签和移动端*/
+.mobile_tag {
+  float: right;
+  padding: 0 0 0 20px
+}
+
+.mobile_tag a {
+  color: #999;
+  font-size: 12px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.mobile_tag a:after {
+  content: "";
+  background: url(../img/icon_index.png) -119px -35px no-repeat;
+  width: 12px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.navigation_tag {
+  float: right;
+  position: relative
+}
+
+.navigation_tag span {
+  color: #999;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.navigat_box {
+  width: 1200px;
+  left: -1065px
+}
+
+.navigation_cont {
+  overflow: hidden;
+  padding: 20px 35px 35px 35px
+}
+
+.navigation_cont dl {
+  float: left;
+  width: 255px;
+  padding: 0 25px;
+}
+
+.navigation_cont dl.dl_2 {
+  width: 255px;
+}
+
+.navigation_cont dl.dl_3 {
+  width: 165px;
+}
+
+.navigation_cont dl.dl_4 {
+  width: 215px;
+}
+
+.navigation_cont dl dt {
+  font-size: 14px;
+  width: 300px;
+}
+
+.navigation_cont dl.dl_1 dd {
+  width: 55px;
+}
+
+.navigation_cont dl dd {
+  float: left;
+  line-height: 32px;
+  height: 32px;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.navigation_cont dl dd a {
+  font-size: 13px;
+}
+
+.navigation_cont dl dd a:hover {
+  color: #6989ff
+}
+
+.navigat_box .topbar-dropdown-icon b, .navigat_box .topbar-dropdown-icon i {
+  right: 30px;
+  left: inherit
+}
+
+/*非咨询*/
+.head_cont {
+  border-bottom: 1px solid #eee;
+}
+
+.head_cont h4 {
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+.head_cont h4.pa_lf {
+  padding-left: 40px;
+}
+
+.head_cont .head_select {
+  float: left;
+  overflow: hidden
+}
+
+.head_cont .head_select input {
+  border: 1px solid #eee;
+  height: 34px;
+  line-height: 34px;
+  width: 160px;
+  padding: 0 15px;
+  float: left
+}
+
+.head_cont .head_select a {
+  width: 65px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #4a8be3;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  float: left;
+  display: block;
+  margin-left: 5px;
+}
+
+.head_lsit_title {
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin: 0 25px 10px 25px;
+  line-height: 24px;
+  color: #333
+}
+
+.head_list_hot {
+  padding-top: 10px;
+}
+
+.head_list_hot ul {
+  overflow: hidden
+}
+
+.head_list_hot ul li {
+  float: left;
+  padding: 3px 25px;
+  line-height: 28px;
+}
+
+.head_list_hot ul li a {
+  color: #666
+}
+
+.head_list_hot ul li a:hover {
+  color: #4a8be3
+}
+
+.head_list_more a {
+  text-align: right;
+  display: block;
+  color: #4a8be3;
+  font-size: 14px;
+  padding-right: 25px;
+  padding-top: 4px;
+}
+
+.head_list_more a:hover {
+  color: #5798f0;
+}
