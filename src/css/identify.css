@@ -1,0 +1,166 @@
+.center_identify {
+  padding: 30px;
+  background-color: #fff;
+}
+.center_identify .center_identify_box .identify_info p {
+  padding: 20px 0 30px 0;
+  font-size: 16px;
+}
+.center_identify .center_identify_box .identify_info .info_box {
+  display: flex;
+}
+.center_identify .center_identify_box .identify_info .info_box .info_box_avatar {
+  width: 142px;
+  height: 142px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  border: solid 1px #e5e5e5;
+  line-height: 142px;
+  text-align: center;
+  color: #999999;
+  font-size: 12px;
+  margin-right: 30px;
+}
+.center_identify .center_identify_box .identify_info .info_box .info_box_right {
+  display: flex;
+  flex-flow: column;
+  height: 142px;
+  justify-content: space-between;
+}
+.center_identify .center_identify_box .identify_info .info_box .info_box_right .info_box_right_item {
+  display: flex;
+}
+.center_identify .center_identify_box .identify_info .info_box .info_box_right .info_box_right_item .label {
+  width: 80px;
+  line-height: 34px;
+  color: #666666;
+}
+.center_identify .center_identify_box .identify_info .info_box .info_box_right .info_box_right_item .layui-input {
+  display: inline-block;
+  width: 242px;
+  height: 34px;
+}
+.center_identify .center_identify_box .identify_card {
+  margin-top: 30px;
+}
+.center_identify .center_identify_box .identify_card p {
+  padding: 20px 0 30px 0;
+  font-size: 16px;
+}
+.center_identify .center_identify_box .identify_card p span {
+  color: #999999;
+  font-size: 14px;
+}
+.center_identify .center_identify_box .identify_card .identify_card_item {
+  display: flex;
+  margin: 20px 0;
+}
+.center_identify .center_identify_box .identify_card .identify_card_upload {
+  width: 245px;
+  height: 136px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  border: solid 1px #d3d3d3;
+  font-size: 12px;
+  text-align: center;
+  color: #999999;
+  margin-right: 30px;
+}
+.center_identify .center_identify_box .identify_card .identify_card_upload i {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.center_identify .center_identify_box .identify_card .identify_card_upload p {
+  padding: 0;
+  font-size: 12px;
+}
+
+.g_normal_btn_reverse {
+  margin-left: 426px;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #5278f4;
+  background-color: #5278f4;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.mask_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.mask {
+  z-index: 99999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 440px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.mask .mask_topbar {
+  background-color: #f8f8f8;
+  border-radius: 5px 5px 0px 0px;
+  text-align: right;
+  padding: 0 10px;
+}
+.mask .mask_box {
+  padding: 50px;
+}
+.mask .mask_box h3 {
+  text-align: center;
+  font-size: 20px;
+  color: #1e1e1e;
+  margin-bottom: 50px;
+}
+.mask .mask_box .input_item {
+  display: flex;
+  margin: 30px 0;
+}
+.mask .mask_box .input_item .input_item_select {
+  border: none;
+  color: #999;
+  border-bottom: solid 1px #999999;
+  width: 100px;
+  font-size: 18px;
+}
+.mask .mask_box .input_item .input_item_select_phone {
+  padding: 5px 0;
+  border: none;
+  color: #999;
+  border-bottom: solid 1px #999999;
+  width: 100%;
+  font-size: 18px;
+}
+.mask .mask_box .input_item .layui-input {
+  border: none;
+  border-bottom: solid 1px #999999;
+  font-size: 18px;
+}
+.mask .mask_box .input_item .input_item_btn {
+  border-bottom: solid 1px #999999;
+  width: 150px;
+  line-height: 37px;
+  color: #5177f4;
+  font-size: 18px;
+}
+.mask .mask_box .mask_btn {
+  margin: 40px auto 10px auto;
+  width: 334px;
+  height: 38px;
+  background-color: #d4d4d4;
+  border-radius: 4px;
+  color: #fefefe;
+}

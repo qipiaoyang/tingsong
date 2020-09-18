@@ -1,0 +1,44 @@
+.center_money {
+  padding: 30px;
+  background-color: #ffffff;
+}
+.center_money .center_money_card {
+  display: flex;
+  justify-content: space-around;
+}
+.center_money .center_money_box .center_money_box_search {
+  width: 100%;
+  margin: 20px 0;
+  line-height: 32px;
+}
+.center_money .center_money_box .center_money_box_search .layui-form {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.center_money .center_money_box .center_money_box_search .layui-form .layui-form-item {
+  margin: 0 10px;
+}
+.center_money .center_money_box .center_money_box_search .layui-form .layui-form-item .layui-input {
+  width: 100px;
+  height: 32px;
+}
+.center_money .center_money_box .center_money_box_tips {
+  background-color: #f0f5ff;
+  color: #5177f4;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 10px;
+}
+
+.g_normal_btn_reverse {
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #5278f4;
+  background-color: #5278f4;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}

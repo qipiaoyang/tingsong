@@ -1,0 +1,194 @@
+.center_funds {
+  padding: 30px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.center_funds i {
+  text-align: right;
+  font-size: 18px;
+  color: #5278f4;
+}
+.center_funds .center_funds_box .center_funds_box_money {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5278f4;
+  border-radius: 5px;
+  color: #fff;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item {
+  padding: 35px;
+  width: 25%;
+  position: relative;
+  text-align: center;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item h3 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item h1 {
+  font-size: 28px;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item .money_item_left {
+  display: flex;
+  align-items: center;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item .money_item_left .money_item_left_tips {
+  background-color: #899dff;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 16px;
+  font-size: 12px;
+  width: 126px;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item .money_item_left .money_item_left_tips::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -16px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-right: 16px solid #899dff;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item .money_item_right {
+  vertical-align: middle;
+}
+.center_funds .center_funds_box .center_funds_box_money .money_item:nth-of-type(3) {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center_funds .center_funds_box .center_funds_box_money .xuxian {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 60px;
+  border: dashed 1px #fff;
+}
+.center_funds .center_funds_box .center_funds_box_search {
+  width: 100%;
+  margin: 20px 0;
+  line-height: 32px;
+}
+.center_funds .center_funds_box .center_funds_box_search .layui-form {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.center_funds .center_funds_box .center_funds_box_search .layui-form .layui-form-item {
+  margin: 0 10px;
+}
+.center_funds .center_funds_box .center_funds_box_search .layui-form .layui-form-item .layui-input {
+  width: 100px;
+  height: 32px;
+}
+.center_funds .card {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.center_funds .card .card_outer {
+  width: 100px;
+  text-align: center;
+}
+.center_funds .card .card_outer .card_inner {
+  margin: 0 auto;
+  width: 67px;
+  height: 66px;
+  background-color: #ecf6ff;
+  border: solid 1px #ff9c1a;
+  border-radius: 50%;
+  position: relative;
+}
+.center_funds .card .card_outer .card_inner span {
+  width: 13px;
+  height: 13px;
+  display: block;
+  background-color: #ff9c1a;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -6px;
+}
+.center_funds .card .card_outer p {
+  padding: 10px 0;
+}
+.center_funds .card .dots {
+  padding-top: 20px;
+}
+.center_funds .card .dots em {
+  margin: 0 4px;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+.center_funds .verify {
+  margin: 84px 0 160px 0;
+  text-align: center;
+  line-height: 24px;
+  color: #666;
+}
+.center_funds .verify p {
+  margin: 17px 0;
+}
+.center_funds .verify .verify_input_box {
+  margin: 30px auto;
+  width: 356px;
+  height: 40px;
+  border-radius: 3px;
+}
+.center_funds .verify .btn_next {
+  width: 168px;
+  height: 42px;
+  background-color: #f5f5f5;
+  border-radius: 21px;
+}
+.center_funds .check {
+  color: #333;
+  font-size: 16px;
+  margin: 84px auto 160px 254px;
+}
+.center_funds .check .check_input_box {
+  margin: 10px 0 30px 0;
+}
+.center_funds .check .check_input_box .layui-input {
+  width: 356px;
+  height: 40px;
+  display: inline-block;
+}
+.center_funds .check .check_input_box span {
+  font-size: 12px;
+  color: #5177f4;
+}
+.center_funds .check .check_input_box em {
+  font-size: 12px;
+  color: #999999;
+}
+.center_funds .check .btn_next {
+  width: 168px;
+  height: 42px;
+  background-color: #f5f5f5;
+  border-radius: 21px;
+}
+
+.g_normal_btn_reverse {
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #5278f4;
+  background-color: #5278f4;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
