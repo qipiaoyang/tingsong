@@ -1,0 +1,38 @@
+.list_content{
+	padding-left: 31px;
+	background-image: url(../img/h5/huiyuan.png);
+	background-repeat:no-repeat;
+	border-bottom:1px solid #F5F5F5;
+	margin-top: 20px;
+}
+.center_iphone{
+	padding: 30px;
+	background-color: #ffffff;
+}
+.topic{
+	font-size: 16px;
+	line-height: 30px;
+	/* padding-right: 45px; */
+	 text-overflow: -o-ellipsis-lastline;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  display: -webkit-box;
+	  -webkit-line-clamp: 2;
+	  line-clamp: 2;
+	  -webkit-box-orient: vertical;
+}
+.checkbox{
+	margin-top: 40px;
+}
+.topbt{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #888888;
+	margin-bottom: 24px;
+}
+.topbt span{
+	margin: 0 14px;
+}
+.time_content {
+    margin-right: 10px;
+}

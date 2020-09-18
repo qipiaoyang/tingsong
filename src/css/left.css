@@ -8,7 +8,7 @@
   padding-top: 20px; }
   .left_box .left_box_item:hover, .left_box .left_box_item:active {
     color: #5278F4; }
-  .left_box .left_box_item > span {
+  .left_box .left_box_item span {
     display: inline-block;
     width: 18px;
     height: 18px;

@@ -1,0 +1,22 @@
+.center_height{
+	/* min-height: 774px; */
+	padding: 30px;
+	background-color: #ffffff;
+	height: 686px;
+}
+.right_box{
+	position:relative;
+
+}
+.content_box{
+	position: absolute;
+	z-index:100000;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+.iphone_content{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}

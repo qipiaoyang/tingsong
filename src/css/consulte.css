@@ -1,0 +1,27 @@
+.consulte_box {
+  padding: 30px;
+  background-color: #ffffff;
+  min-height: 744px;
+  box-sizing: border-box; }
+  .consulte_box .switch .switch_item {
+    padding-left: 30px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EEEEEE; }
+    .consulte_box .switch .switch_item .switch_item_avatar {
+      width: 50px;
+      height: 50px;
+      margin-right: 30px;
+      background-color: #999999; }
+    .consulte_box .switch .switch_item .switch_item_info .switch_item_title {
+      font-size: 18px;
+      color: #343434;
+      height: 18px;
+      line-height: 18px;
+      margin-bottom: 14px; }
+    .consulte_box .switch .switch_item .switch_item_info .switch_item_tip {
+      font-size: 14px;
+      color: #9A9A9A; }
+  .consulte_box .service_setting {
+    background-color: #F7F7F7; }
