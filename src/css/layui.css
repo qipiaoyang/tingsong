@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 blockquote, body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
   margin: 0;
   padding: 0;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 a:active, a:hover {
   outline: 0; }
@@ -1729,7 +1729,7 @@ a cite {
   margin-top: -3px \9; }
 
 :root .layui-form-selected .layui-edge {
-  margin-top: -9px \0/ IE9; }
+  margin-top: -9px \0/ IE9; }
 
 .layui-form-selectup dl {
   top: auto;
@@ -3163,7 +3163,7 @@ body .layui-table-tips .layui-layer-content {
   transform: rotate(180deg); }
 
 :root .layui-tab-more .layui-tab-bar .layui-icon {
-  top: -2px \0/ IE9; }
+  top: -2px \0/ IE9; }
 
 .layui-tab-content {
   padding: 10px; }
@@ -4019,7 +4019,7 @@ body .layui-util-face .layui-layer-content {
   background-color: #eee; }
 
 .layui-tree-line .layui-tree-entry:hover {
-  background-color: transparent; }
+  background-color: rgba(0, 0, 0, 0); }
 
 .layui-tree-line .layui-tree-entry:hover .layui-tree-txt {
   color: #999;
