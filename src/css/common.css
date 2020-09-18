@@ -119,7 +119,7 @@ img {
   height: 10px; }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 2px transparent;
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0);
   border-radius: 12px;
   background: #eee; }
 

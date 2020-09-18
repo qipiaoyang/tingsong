@@ -1,0 +1,136 @@
+.question {
+  background: #fff;
+  padding: 30px; }
+  .question .tile_list {
+    background: #FFFFFF;
+    border-radius: 3px;
+    margin-top: 20px; }
+  .question .question_Details {
+    width: 905px;
+    padding: 28px;
+    border: 2px solid #F5F5F5;
+    border-radius: 3px;
+    background: #F8F8F8;
+    margin: 20px 0 0 0px;
+    box-sizing: border-box; }
+    .question .question_Details .center_recommend_item-tip {
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      background-color: #FF9A18;
+      color: #ffffff;
+      text-align: center;
+      line-height: 20px;
+      margin-right: 12px; }
+    .question .question_Details .quesText {
+      margin-left: 31px;
+      font-size: 16px;
+      color: #333333; }
+      .question .question_Details .quesText .open {
+        color: #5177F4;
+        font-size: 15px; }
+    .question .question_Details .bottom {
+      margin-left: 31px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      color: #999999;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 30px; }
+      .question .question_Details .bottom .contact {
+        width: 106px;
+        height: 32px;
+        background: #F3F8FF;
+        border: 1px solid #5177F4;
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        text-align: center;
+        line-height: 30px;
+        color: #5177F4; }
+
+.reply {
+  background: #fff;
+  padding: 30px; }
+  .reply .center_recommend_item-tip {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #FF9A18;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 12px; }
+  .reply .g_title_text {
+    color: #FF9A17; }
+  .reply textarea {
+    margin-top: 21px;
+    width: 905px;
+    height: 208px;
+    border: 2px solid #D3DDF9;
+    border-radius: 3px; }
+  .reply .sumitBox {
+    text-align: center; }
+  .reply .sumit {
+    width: 200px;
+    height: 42px;
+    background: #5177F4;
+    border-radius: 21px;
+    margin: 30px auto;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF; }
+
+.alreadyReplied {
+  background: #fff;
+  padding: 30px;
+  position: relative; }
+  .alreadyReplied .Avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #000; }
+  .alreadyReplied .grayColor {
+    color: #999999;
+    font-size: 15px;
+    padding-left: 3px;
+    margin-top: 15px; }
+  .alreadyReplied .text {
+    margin-top: 15px; }
+  .alreadyReplied .repliedContent {
+    width: 816px;
+    margin-left: 76px;
+    border-bottom: 2px solid #F5F5F5;
+    padding-bottom: 24px; }
+    .alreadyReplied .repliedContent .name {
+      color: #333333;
+      font-size: 16px; }
+  .alreadyReplied .ask {
+    width: 816px;
+    margin-left: 76px;
+    border-bottom: 2px solid #F5F5F5;
+    padding-bottom: 24px;
+    margin-top: 20px; }
+    .alreadyReplied .ask .userAsk {
+      color: #FF9A17;
+      font-size: 16px;
+      font-weight: bold; }
+  .alreadyReplied .replyBtn {
+    width: 106px;
+    height: 32px;
+    background: #5177F4;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 787px; }

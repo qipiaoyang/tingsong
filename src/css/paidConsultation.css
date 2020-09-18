@@ -1,0 +1,242 @@
+.question {
+  background: #fff;
+  padding: 30px; }
+  .question .tile_list {
+    background: #F7FAFF;
+    border-radius: 3px;
+    margin-top: 20px; }
+  .question .question_Details {
+    width: 905px;
+    padding: 28px;
+    border: 2px solid #F5F5F5;
+    border-radius: 3px;
+    background: #F8F8F8;
+    margin: 20px 0 0 0px;
+    box-sizing: border-box; }
+    .question .question_Details .center_recommend_item-tip {
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      background-color: #FF9A18;
+      color: #ffffff;
+      text-align: center;
+      line-height: 20px;
+      margin-right: 12px; }
+    .question .question_Details .quesText {
+      font-size: 16px;
+      color: #333333; }
+      .question .question_Details .quesText .open {
+        color: #5177F4;
+        font-size: 15px; }
+    .question .question_Details .bottom {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      color: #999999;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 30px; }
+      .question .question_Details .bottom .contact {
+        width: 106px;
+        height: 32px;
+        background: #F3F8FF;
+        border: 1px solid #5177F4;
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        text-align: center;
+        line-height: 30px;
+        color: #5177F4; }
+    .question .question_Details .btns {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .question .question_Details .btns button {
+        width: 132px;
+        height: 42px;
+        background: #FFFFFF;
+        border: 1px solid #5177F4;
+        border-radius: 3px;
+        margin-top: 23px;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400; }
+      .question .question_Details .btns .ignore {
+        color: #5177F4;
+        margin-right: 10px; }
+      .question .question_Details .btns .accept {
+        color: #FFFFFF;
+        background: #6297FF;
+        margin-left: 10px; }
+    .question .question_Details .points {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 8px; }
+      .question .question_Details .points .point {
+        width: 10px;
+        height: 10px;
+        background: #DCE2F5;
+        border-radius: 50%;
+        margin: 5px; }
+        .question .question_Details .points .point:nth-child(1) {
+          background: #5177F4; }
+
+.inquire {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  padding: 30px; }
+  .inquire select {
+    width: 120px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    display: block;
+    margin-right: 10px; }
+  .inquire .search {
+    width: 88px;
+    height: 32px;
+    background: -webkit-linear-gradient(left, #6297FF, #6F7DFF);
+    background: linear-gradient(90deg, #6297FF, #6F7DFF);
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF; }
+  .inquire span {
+    margin-right: 10px; }
+  .inquire button {
+    width: 153px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    position: relative;
+    margin-right: 10px; }
+    .inquire button i {
+      font-size: 19px;
+      margin-right: 2px; }
+
+.allQuestion {
+  background: #fff;
+  padding: 30px; }
+  .allQuestion .tile_list {
+    background: #F7FAFF;
+    border-radius: 3px;
+    margin-top: 20px; }
+  .allQuestion .question_Details {
+    width: 905px;
+    padding: 28px;
+    border-bottom: 2px solid #F5F5F5;
+    margin: 20px 0 0 0px;
+    box-sizing: border-box; }
+    .allQuestion .question_Details .center_recommend_item-tip {
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      background-color: #FF9A18;
+      color: #ffffff;
+      text-align: center;
+      line-height: 20px;
+      margin-right: 12px; }
+    .allQuestion .question_Details .quesText {
+      font-size: 16px;
+      color: #333333; }
+      .allQuestion .question_Details .quesText .open {
+        color: #5177F4;
+        font-size: 15px; }
+    .allQuestion .question_Details .bottom {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      color: #999999;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-top: 30px; }
+      .allQuestion .question_Details .bottom .contact {
+        width: 106px;
+        height: 32px;
+        background: #F3F8FF;
+        border: 1px solid #5177F4;
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        text-align: center;
+        line-height: 30px;
+        color: #5177F4; }
+    .allQuestion .question_Details .btns {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .allQuestion .question_Details .btns button {
+        width: 132px;
+        height: 42px;
+        background: #FFFFFF;
+        border: 1px solid #5177F4;
+        border-radius: 3px;
+        margin-top: 23px;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400; }
+      .allQuestion .question_Details .btns .ignore {
+        color: #5177F4;
+        margin-right: 10px; }
+      .allQuestion .question_Details .btns .accept {
+        color: #FFFFFF;
+        background: #6297FF;
+        margin-left: 10px; }
+    .allQuestion .question_Details .points {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 8px; }
+      .allQuestion .question_Details .points .point {
+        width: 10px;
+        height: 10px;
+        background: #DCE2F5;
+        border-radius: 50%;
+        margin: 5px; }
+        .allQuestion .question_Details .points .point:nth-child(1) {
+          background: #5177F4; }
